@@ -43,3 +43,20 @@
     border-radius: 50%;
     border: 10px solid #fafaf8;
 }
+
+.info-block {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.info-block > h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.info-block > p {
+    font-size: 14px;
+    margin-top: 10px;
+}
