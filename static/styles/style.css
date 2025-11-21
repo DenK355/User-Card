@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-#location_icon {
+#location-icon {
     color: #42484a;
 }
 
@@ -41,6 +41,7 @@
     object-fit: cover;
     border-radius: 50%;
     border: 10px solid #fafaf8;
+    box-shadow: 0px 2.5px 5px -2.5px black;
 }
 
 .info-block {
@@ -73,6 +74,7 @@
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    box-shadow: inset 0px -2.5px 5px -2.5px black;
 }
 
 .footer {
@@ -84,22 +86,21 @@
 .stats {
     width:calc(100% / 3);
     background-color: #1f354c;
-    padding: 25px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    color: rgb(232, 83, 108); 
+    outline: 1px solid #fff;
 }
 
 .stats i {
-    color: rgb(232, 83, 108);
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 30px;
 }
 
-.stats div p:first-child{
-    color: rgb(232, 83, 108);
-}
-
-.stats div p:last-child{
+.stats div p:last-child {
     color: #fff;
 }
 
-.stats div {
-    display: inline-block;
 
-}
